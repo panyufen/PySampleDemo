@@ -5,7 +5,7 @@ class StringSample:
     dataType = DataTypeSample()
 
     def reprSample(self):
-        print("")
+        print("=========== ")
         print("repr(string):", repr(self.dataType.string))
         print("repr(number):", repr(self.dataType.number))
         print("repr(tup):", repr(self.dataType.tup))
